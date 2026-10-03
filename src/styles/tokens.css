@@ -1,0 +1,75 @@
+:root {
+  /* Brand Core Colors */
+  --color-black: #080808;
+  --color-black-pure: #000000;
+  --color-charcoal: #171717;
+  --color-charcoal-card: #121212;
+  --color-charcoal-light: #222222;
+  --color-charcoal-border: rgba(255, 255, 255, 0.09);
+  --color-charcoal-hover: rgba(255, 255, 255, 0.14);
+  
+  --color-offwhite: #F8F8F5;
+  --color-offwhite-muted: #D9D3C9;
+  
+  /* Brand Yellow Accent (attention / energy / action) */
+  --color-yellow: #FFD600;
+  --color-yellow-bright: #FFE033;
+  --color-yellow-soft: #FFF4C3;
+  --color-yellow-dark: #CCA800;
+  --color-yellow-glow: rgba(255, 214, 0, 0.25);
+  --color-yellow-subtle: rgba(255, 214, 0, 0.08);
+
+  /* Neutrals */
+  --color-gray-100: #F3F3F3;
+  --color-gray-300: #D9D9D9;
+  --color-gray-400: #A7A7A7;
+  --color-gray-500: #888888;
+  --color-gray-600: #555555;
+  --color-gray-800: #222222;
+  --color-gray-900: #111111;
+
+  /* Typography */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-handwriting: 'Caveat', 'Playfair Display', cursive;
+
+  /* Spacing Scale */
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 32px;
+  --space-xl: 48px;
+  --space-2xl: 64px;
+  --space-3xl: 96px;
+  --space-4xl: 128px;
+
+  /* Container Widths */
+  --container-max: 1320px;
+  --container-narrow: 980px;
+
+  /* Border Radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-card: 0 10px 30px -10px rgba(0, 0, 0, 0.7);
+  --shadow-yellow: 0 8px 24px -6px rgba(255, 214, 0, 0.35);
+  --shadow-polaroid: 0 16px 36px -8px rgba(0, 0, 0, 0.8), 0 0 1px 1px rgba(255, 255, 255, 0.08);
+
+  /* Transitions & Motion */
+  --motion-micro: 180ms cubic-bezier(0.16, 1, 0.3, 1);
+  --motion-standard: 350ms cubic-bezier(0.16, 1, 0.3, 1);
+  --motion-story: 600ms cubic-bezier(0.16, 1, 0.3, 1);
+  --motion-smooth: 800ms cubic-bezier(0.25, 1, 0.5, 1);
+  
+  /* Z-index hierarchy */
+  --z-base: 1;
+  --z-floating: 10;
+  --z-sticky: 100;
+  --z-drawer: 500;
+  --z-preloader: 1000;
+}

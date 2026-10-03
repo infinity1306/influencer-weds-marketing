@@ -1,0 +1,54 @@
+@import './styles/tokens.css';
+@import './styles/reset.css';
+@import './styles/animations.css';
+
+/* Micro Button Styles */
+.custom-button:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.05);
+}
+
+.custom-button:active {
+  transform: translateY(0);
+}
+
+.custom-button .btn-icon {
+  transition: transform var(--motion-micro);
+}
+
+.custom-button:hover .btn-icon {
+  transform: translateX(3px);
+}
+
+.btn-outline:hover {
+  border-color: var(--color-yellow) !important;
+  color: var(--color-yellow) !important;
+}
+
+/* Polaroids Hover Lift */
+.polaroid-container:hover {
+  transform: scale(1.05) rotate(0deg) !important;
+  z-index: 10 !important;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.9) !important;
+}
+
+/* Keyframe helper */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
